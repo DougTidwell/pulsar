@@ -1,0 +1,19 @@
+<gradleEnterprise>
+  <server>
+    <url>https://e.grdev.net</url>
+  </server>
+  <buildCache>
+    <local>
+      <enabled>true</enabled>
+      <storeEnabled>false</storeEnabled>
+    </local>
+  </buildCache>
+  <buildScan>
+    <capture>
+      <goalInputFiles>true</goalInputFiles>
+    </capture>
+    <publish>ALWAYS</publish>
+    <backgroundBuildScanUpload>false</backgroundBuildScanUpload>
+  </buildScan>
+</gradleEnterprise>
+
